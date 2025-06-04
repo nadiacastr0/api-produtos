@@ -2,8 +2,9 @@
   "name": "api-produtos",
   "version": "1.0.0",
   "description": "Exercício de criação de uma API com Node.js usando técnicas de engenharia de prompt.",
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
+    "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
