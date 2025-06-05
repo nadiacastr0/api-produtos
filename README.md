@@ -1,14 +1,19 @@
 # API Produtos
 
-## Descrição
-Este projeto consiste em uma API para gerenciamento de produtos. A API permite operações de **criação**, **edição**, **deleção** e **listagem** de produtos. O desenvolvimento foi realizado utilizando **Node.js**, e os testes foram conduzidos via **Postman**.
+## Sobre o Projeto
+**Este projeto foi desenvolvido inteiramente por uma IA generativa** através de técnicas avançadas de engenharia de prompt. Serve como demonstração de como instruções precisas e estruturadas podem gerar soluções completas de software.
+
+## Objetivos
+- Demonstrar o potencial da engenharia de prompt no desenvolvimento de software
+- Oferecer um estudo de caso real de API gerada por IA
+- Servir como material educativo para aprendizado de Node.js e Docker
 
 ## Tecnologias Utilizadas
-- Node.js
-- Express.js
-- Postman (para testes)
-- Visual Studio Code
-- ChatGpt
+- **Node.js** (versão 18)
+- **Express.js** para rotas
+- **Docker** para conteinerização
+- **Express-Validator** para validações
+- **Postman** para testes
 
 ## Instalação
 Para rodar o projeto localmente, siga os passos abaixo:
@@ -20,18 +25,20 @@ git clone https://github.com/nadiacastr0/api-produtos.git
 # Acesse o diretório do projeto
 cd api-produtos
 
-# Instale as dependências
-npm install express express-validator
-npm install --save-dev nodemon
+#--- Execução do Projeto ---
 
-# Acesse o diretório de execução
-cd src
+# Método Tradicional
 
-# Inicie o servidor
+npm install
 npm start
+
+# Via Docker
+
+docker build -t api-produtos .
+docker run -p 3000:3000 api-produtos
 ```
 ## Testes com Postman
-Para testar a API, utilize **Postman** e importe a coleção de requisições disponível no repositório.
+Para testar a API, utilize **Postman** (ou a ferramenta de sua preferência) e importe a coleção de requisições disponível no repositório.
 
 ## Endpoints
 
